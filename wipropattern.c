@@ -23,6 +23,7 @@ int main()
 	for (j=1; j<=i; j++)
 	{
 	    printf("%d",temp++);
+		if (j!=i)
 	    printf("*");
 	}
 	    printf("\n");
